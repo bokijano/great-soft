@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreatSoftDevTest</title>
+
+    <link rel="stylesheet" href="GreatSoftDevTest.css" />
+  </head>
+  <body>
+    <!-- article for display, search and insert buttons -->
+    <article class="search-display">
+      <!-- section for searching by certain parameters -->
+      <section class="search-param">
+        <p>search by first name</p>
+        <input id="enterName" type="text" value="Enter first name" />
+        <button id="submit-select-btn">search for members</button>
+      </section>
+
+      <!-- button for displaying all staff -->
+      <button id="allStaff">display and delete staff members</button>
+
+      <!-- button for insert member -->
+      <button id="insertMember">insert new member</button>
+    </article>
+
+    <!-- section for display tables -->
+    <section class="display-tables">
+      <table class="all-staff"></table>
+    </section>
+
+    <!-- h4 for displaying messages -->
+    <h4 class="display-msg"></h4>
+
+    <!-- form for insert new staff member -->
+    <section class="addFormElements">
+      <form action="">
+        <span>First Name *</span
+        ><input
+          id="enterFirst"
+          type="text"
+          placeholder="First Name"
+          name="fname"
+          value=""
+          required
+        />
+        <hr />
+
+        <span>Last Name *</span
+        ><input
+          id="enterLast"
+          type="text"
+          placeholder="First Name"
+          name="lname"
+          value=""
+          required
+        />
+        <hr />
+
+        <section class="gender-sect">
+          <span>Gender</span>
+          <input
+            id="enterMale"
+            type="radio"
+            name="gender"
+            value="male"
+            required
+          /><span class="gender-span">Male</span>
+          <input
+            id="enterFemale"
+            type="radio"
+            name="gender"
+            value="female"
+            required
+          /><span class="gender-span">Female</span>
+        </section>
+        <hr />
+
+        <span>Category</span
+        ><select id="enterCategory" name="category" value="" required>
+          <option id="select-field" value="" required
+            >------------- SELECT -------------</option
+          >
+          <option value="motorsport" required>MotorSport</option>
+          <option value="sport" required>Sport</option>
+          <option value="singer" required>Singer</option>
+          <option value="moviestar" required>Movie Star</option>
+        </select>
+        <hr />
+
+        <span>Salary</span
+        ><input
+          type="number"
+          id="enterSalary"
+          name="salary"
+          value=""
+          required
+        />
+        <hr />
+      </form>
+
+      <button class="add-new">add new member</button>
+    </section>
+
+    <!-- section witn totals per category and summed salaries per gender -->
+    <section class="more-procedures">
+      <button class="category-count">category count</button>
+      <button class="gender-salary">gender salary stats</button>
+      <section class="count-members">
+        <h3>Totals of staff members per category</h3>
+        <section class="result"></section>
+      </section>
+      <section class="summ-salary">
+        <h3>Summed salaries per gender</h3>
+        <p>Male<span id="summ-male"></span></p>
+        <p>Female<span id="summ-female"></span></p>
+      </section>
+    </section>
+
+    <script src="domElementsPart.js"></script>
+    <script src="GreatSoftDevTest.js"></script>
+  </body>
+</html>

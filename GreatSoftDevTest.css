@@ -1,0 +1,299 @@
+.search-display {
+  width: 60%;
+  margin: 50px 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search-display #allStaff,
+.search-display #insertMember {
+  cursor: pointer;
+  width: 120px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-display #allStaff:focus,
+.search-display #insertMember:focus {
+  outline: none;
+}
+
+.search-display #insertMember {
+  background-color: forestgreen !important;
+}
+
+.search-display .search-param {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightgray;
+}
+
+.search-display .search-param p {
+  text-align: center;
+  width: 200px;
+  padding: 0 5px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.search-display .search-param input {
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+.search-display .search-param button {
+  text-transform: capitalize;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 900px) {
+  .search-display {
+    width: 96%;
+    margin: 50px 2%;
+  }
+}
+
+.display-tables {
+  display: none;
+}
+
+.display-tables .all-staff {
+  width: 60%;
+  margin: 5px 20%;
+  border-collapse: collapse;
+}
+
+.display-tables .all-staff td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.display-tables .all-staff td button {
+  cursor: pointer;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 3px;
+}
+
+.display-tables .all-staff td button:focus {
+  outline: none;
+}
+
+.display-tables .all-staff tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.display-tables .all-staff tr:hover {
+  background-color: #ddd;
+}
+
+.display-tables .all-staff thead {
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bolder;
+}
+
+.display-tables .all-staff thead tr {
+  height: 60px;
+  cursor: none;
+}
+
+.display-tables .all-staff thead tr th {
+  border: 1px solid white;
+}
+
+.display-tables .all-staff thead tr:hover {
+  background-color: dodgerblue !important;
+}
+
+@media screen and (max-width: 900px) {
+  .display-tables .all-staff {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+h4 {
+  text-align: center;
+  width: 100%;
+}
+
+.addFormElements {
+  width: 60%;
+  margin: 20px 20%;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addFormElements form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addFormElements form span {
+  padding: 20px 0;
+  width: 30%;
+}
+
+.addFormElements form input {
+  width: 50%;
+}
+
+.addFormElements form .gender-sect {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addFormElements form .gender-sect input {
+  margin-top: 23px;
+}
+
+.addFormElements form .gender-sect .gender-span {
+  margin-left: -35px;
+}
+
+.addFormElements form select {
+  width: 50%;
+}
+
+.addFormElements form select #select-field {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.addFormElements button {
+  cursor: pointer;
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-size: 15px;
+  background-color: forestgreen;
+  border: none;
+  border-radius: 10px;
+}
+
+.addFormElements button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 900px) {
+  .addFormElements {
+    width: 80%;
+    margin: 20px 10%;
+  }
+}
+
+.more-procedures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.more-procedures button {
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+.more-procedures button:focus {
+  outline: none;
+}
+
+.more-procedures .summ-salary {
+  text-align: center;
+  display: none;
+  width: 100%;
+}
+
+.more-procedures .summ-salary p {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.more-procedures .summ-salary #summ-male,
+.more-procedures .summ-salary #summ-female {
+  float: right;
+  font-weight: bolder;
+}
+
+.more-procedures .count-members {
+  text-align: center;
+  display: none;
+  width: 100%;
+}
+
+.more-procedures .count-members .result p {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.more-procedures .count-members .result span {
+  float: right;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=GreatSoftDevTest.css.map */

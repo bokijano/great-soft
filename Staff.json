@@ -1,0 +1,172 @@
+{
+  "staff": [
+    {
+      "StaffID": 1,
+      "FirstName": "Peter",
+      "LastName": "Crouch",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 500000
+    },
+    {
+      "StaffID": 2,
+      "FirstName": "Wayne",
+      "LastName": "Rooney",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 10011001
+    },
+    {
+      "StaffID": 3,
+      "FirstName": "Jacques",
+      "LastName": "Kallis",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 1000123
+    },
+    {
+      "StaffID": 4,
+      "FirstName": "Serena",
+      "LastName": "Williams",
+      "GenderID": 2,
+      "CategoryID": 2,
+      "Salary": 10011001
+    },
+    {
+      "StaffID": 5,
+      "FirstName": "Michael",
+      "LastName": "Schumacher",
+      "GenderID": 1,
+      "CategoryID": 1,
+      "Salary": 87123477
+    },
+    {
+      "StaffID": 6,
+      "FirstName": "Charlize",
+      "LastName": "Theron",
+      "GenderID": 2,
+      "CategoryID": 4,
+      "Salary": 65491102
+    },
+    {
+      "StaffID": 7,
+      "FirstName": "John",
+      "LastName": "Cena",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 400000
+    },
+    {
+      "StaffID": 8,
+      "FirstName": "Meryl",
+      "LastName": "Streep",
+      "GenderID": 2,
+      "CategoryID": 4,
+      "Salary": 12435161
+    },
+    {
+      "StaffID": 9,
+      "FirstName": "Maria",
+      "LastName": "Sharapova",
+      "GenderID": 2,
+      "CategoryID": 2,
+      "Salary": 500000
+    },
+    {
+      "StaffID": 10,
+      "FirstName": "Venus",
+      "LastName": "Williams",
+      "GenderID": 2,
+      "CategoryID": 2,
+      "Salary": 10011001
+    },
+    {
+      "StaffID": 11,
+      "FirstName": "Michael",
+      "LastName": "Buble",
+      "GenderID": 1,
+      "CategoryID": 3,
+      "Salary": 1000123
+    },
+    {
+      "StaffID": 12,
+      "FirstName": "Kanye",
+      "LastName": "West",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 10011001
+    },
+    {
+      "StaffID": 13,
+      "FirstName": "Fernando",
+      "LastName": "Alonso",
+      "GenderID": 1,
+      "CategoryID": 1,
+      "Salary": 87123477
+    },
+    {
+      "StaffID": 14,
+      "FirstName": "Kate",
+      "LastName": "Winslet",
+      "GenderID": 2,
+      "CategoryID": 4,
+      "Salary": 65491102
+    },
+    {
+      "StaffID": 15,
+      "FirstName": "Luka",
+      "LastName": "Modric",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 400000
+    },
+    {
+      "StaffID": 16,
+      "FirstName": "Novak",
+      "LastName": "Djokovic",
+      "GenderID": 1,
+      "CategoryID": 2,
+      "Salary": 12435161
+    },
+    {
+      "StaffID": 17,
+      "FirstName": "Ross",
+      "LastName": "Kemp",
+      "GenderID": 1,
+      "CategoryID": 4,
+      "Salary": 10011001
+    },
+    {
+      "StaffID": 18,
+      "FirstName": "Taylor",
+      "LastName": "Swift",
+      "GenderID": 2,
+      "CategoryID": 3,
+      "Salary": 1000123
+    },
+    {
+      "StaffID": 19,
+      "FirstName": "Miley",
+      "LastName": "Cyrus",
+      "GenderID": 2,
+      "CategoryID": 3,
+      "Salary": 65491102
+    },
+    {
+      "StaffID": 20,
+      "FirstName": "Jennifer",
+      "LastName": "Anderson",
+      "GenderID": 2,
+      "CategoryID": 4,
+      "Salary": 400000
+    },
+    {
+      "StaffID": 21,
+      "FirstName": "Kevin",
+      "LastName": "Hart",
+      "GenderID": 1,
+      "CategoryID": 4,
+      "Salary": 87123477
+    }
+  ]
+}
